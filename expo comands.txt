@@ -1,0 +1,4 @@
+android build - eas build -p android --profile production
+ios build - eas build -p ios --profile preview
+open app in powershell - cd staff-price-app
+run app with clear cache - npx expo start -c

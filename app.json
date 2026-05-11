@@ -24,7 +24,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.shaneom1.staffpriceapp"
+      "package": "com.somahony.staffprices"
     },
     "web": {
       "output": "static",
