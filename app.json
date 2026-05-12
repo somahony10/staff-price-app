@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.shaneom1.staffpriceapp",
+      "bundleIdentifier": "com.somahony.staffprices",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
