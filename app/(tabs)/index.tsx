@@ -1,17 +1,12 @@
 // cd C:\Users\somah\staff-price-app
 // npx expo start -c
-//eas build -p android --profile preview
+// eas build -p android --profile preview
 
 import { CameraView, useCameraPermissions } from "expo-camera";
 import * as Haptics from "expo-haptics";
 import { router, useFocusEffect } from "expo-router";
 import * as SQLite from "expo-sqlite";
-import React, {
-  useCallback,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import {
   Animated,
   FlatList,
@@ -89,9 +84,7 @@ const ProductRow = React.memo(function ProductRow({
         </Text>
 
         <View style={styles.pill}>
-          <Text style={styles.pillText}>
-            {item.location || "No location"}
-          </Text>
+          <Text style={styles.pillText}>{item.location || "No location"}</Text>
         </View>
       </View>
 
@@ -99,9 +92,7 @@ const ProductRow = React.memo(function ProductRow({
         €{formatPrice(getPriceIncVat(item.price))}
       </Text>
 
-      <Text style={styles.cardPriceSmall}>
-        Ex VAT: €{formatPrice(item.price)}
-      </Text>
+      <Text style={styles.cardPriceSmall}>Ex VAT: €{formatPrice(item.price)}</Text>
 
       <View style={styles.metaRow}>
         <Text style={styles.metaLabel}>Code</Text>
@@ -221,6 +212,7 @@ export default function Index() {
     db.execSync(
       `CREATE INDEX IF NOT EXISTS idx_description ON products(description);`
     );
+
     db.execSync(
       `CREATE INDEX IF NOT EXISTS idx_stockCode ON products(stockCode);`
     );
@@ -257,10 +249,12 @@ export default function Index() {
           `INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)`,
           ["seeded", "true"]
         );
+
         db.runSync(
           `INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)`,
           ["version", "1.0.0"]
         );
+
         db.runSync(
           `INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)`,
           ["lastUpdated", new Date().toISOString()]
@@ -268,89 +262,125 @@ export default function Index() {
 
         db.execSync("COMMIT;");
       } catch (error) {
-        db.execSync("ROLLBACK;");
+        try {
+          db.execSync("ROLLBACK;");
+        } catch (rollbackError) {
+          console.log("Initial seed rollback skipped:", rollbackError);
+        }
+
         throw error;
       }
     }
   };
 
   const checkForUpdates = async () => {
-  try {
-    console.log("Checking for updates...");
+    setIsUpdating(true);
 
-    const res = await fetch(`${PRODUCTS_URL}?t=${Date.now()}`);
-    const json = await res.json();
+    try {
+      console.log("Checking for updates...");
 
-    const products = Array.isArray(json)
-      ? json
-      : json?.products;
+      const res = await fetch(`${PRODUCTS_URL}?t=${Date.now()}`);
 
-    if (!products || products.length === 0) return;
+      if (!res.ok) {
+        console.log("Fetch failed with status:", res.status);
+        return;
+      }
 
-    const remoteVersion = String(json?.version ?? "0");
+      const json = await res.json();
 
-    const localVersionRow = db.getFirstSync<{ value: string }>(
-      `SELECT value FROM meta WHERE key='version';`
-    );
+      const products = Array.isArray(json)
+        ? json
+        : Array.isArray(json?.products)
+        ? json.products
+        : null;
 
-    const localVersion = localVersionRow?.value ?? null;
+      if (!products || products.length === 0) {
+        console.log("Invalid or empty product data");
+        return;
+      }
 
-    if (remoteVersion === localVersion) {
-      console.log("No update needed");
-      return;
-    }
+      const remoteVersion = String(json?.version ?? "0");
 
-    console.log(`Updating ${localVersion} → ${remoteVersion}`);
-
-    db.execSync("BEGIN;");
-    db.execSync("DELETE FROM products;");
-
-    products.forEach((p: any) => {
-      db.runSync(
-        `INSERT INTO products (stockCode, description, price, location)
-         VALUES (?, ?, ?, ?);`,
-        [
-          p.stockCode ?? "",
-          p.description ?? "",
-          parseFloat(p.price) || 0,
-          p.location ?? "",
-        ]
+      const localVersionRow = db.getFirstSync<{ value: string }>(
+        `SELECT value FROM meta WHERE key='version';`
       );
-    });
 
-    const timestamp = new Date().toISOString();
+      const localVersion = localVersionRow?.value ?? null;
 
-    db.runSync(
-      `INSERT OR REPLACE INTO meta (key,value) VALUES (?,?)`,
-      ["lastUpdated", timestamp]
-    );
+      if (remoteVersion === localVersion) {
+        console.log("No update needed");
+        return;
+      }
 
-    db.runSync(
-      `INSERT OR REPLACE INTO meta (key,value) VALUES (?,?)`,
-      ["version", remoteVersion]
-    );
+      console.log(`Updating ${localVersion} → ${remoteVersion}`);
 
-    db.execSync("COMMIT;");
+      try {
+        db.execSync("BEGIN;");
 
-    setLastUpdated(timestamp);
-    triggerUpdateBanner();
+        db.execSync("DELETE FROM products;");
 
-    console.log("Update complete");
-  } catch (err) {
-    db.execSync("ROLLBACK;");
-    console.log("Update failed", err);
-  }
-};
+        products.forEach((p: any) => {
+          const priceParsed = parseFloat(String(p.price));
+          const safePrice = Number.isFinite(priceParsed) ? priceParsed : 0;
+
+          db.runSync(
+            `INSERT INTO products (stockCode, description, price, location)
+             VALUES (?, ?, ?, ?);`,
+            [
+              String(p.stockCode ?? "").trim(),
+              String(p.description ?? "").trim(),
+              safePrice,
+              String(p.location ?? "").trim(),
+            ]
+          );
+        });
+
+        const timestamp = new Date().toISOString();
+
+        db.runSync(
+          `INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)`,
+          ["lastUpdated", timestamp]
+        );
+
+        db.runSync(
+          `INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)`,
+          ["version", remoteVersion]
+        );
+
+        db.execSync("COMMIT;");
+
+        setLastUpdated(timestamp);
+        setResults([]);
+        triggerUpdateBanner();
+
+        console.log("Update complete");
+      } catch (dbErr) {
+        try {
+          db.execSync("ROLLBACK;");
+        } catch (rollbackErr) {
+          console.log("Rollback skipped:", rollbackErr);
+        }
+
+        console.log("DB update failed", dbErr);
+      }
+    } catch (err) {
+      console.log("Update fetch failed", err);
+    } finally {
+      setIsUpdating(false);
+    }
+  };
 
   useEffect(() => {
     const init = async () => {
       try {
         initializeDatabase();
         refreshLastUpdated();
-        setIsReady(true);
+
         await checkForUpdates();
+
+        setIsReady(true);
       } catch (e: any) {
-        setInitError(String(e));
+        setInitError(String(e?.message || e));
       }
     };
 
@@ -397,6 +427,8 @@ export default function Index() {
     setIsSearching(true);
 
     setTimeout(() => {
+      const query = text.trim();
+
       const rows = db.getAllSync<Product>(
         `SELECT * FROM products
          WHERE LOWER(description) LIKE LOWER(?) OR LOWER(stockCode) LIKE LOWER(?)
@@ -408,7 +440,7 @@ export default function Index() {
            END,
            description ASC
          LIMIT 100`,
-        [`%${text}%`, `%${text}%`, text, `${text}%`]
+        [`%${query}%`, `%${query}%`, query, `${query}%`]
       );
 
       setResults(rows);
@@ -446,7 +478,9 @@ export default function Index() {
   if (!isReady) {
     return (
       <View style={styles.centerScreen}>
-        <Text style={styles.loadingText}>Loading...</Text>
+        <Text style={styles.loadingText}>
+          {isUpdating ? "Checking prices..." : "Loading..."}
+        </Text>
       </View>
     );
   }
@@ -592,10 +626,7 @@ export default function Index() {
       )}
 
       <View style={styles.container}>
-        <Image
-          source={require("../../assets/logo.png")}
-          style={styles.logo}
-        />
+        <Image source={require("../../assets/logo.png")} style={styles.logo} />
 
         <TextInput
           placeholder="Search product or code..."
@@ -605,9 +636,7 @@ export default function Index() {
           style={styles.input}
         />
 
-        {isSearching && (
-          <Text style={styles.loadingSmall}>Searching...</Text>
-        )}
+        {isSearching && <Text style={styles.loadingSmall}>Searching...</Text>}
 
         {lastUpdated && (
           <Text style={styles.lastUpdatedText}>
