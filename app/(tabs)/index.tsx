@@ -2,27 +2,27 @@
 // npx expo start -c
 //eas build -p android --profile preview
 
+import { CameraView, useCameraPermissions } from "expo-camera";
+import * as Haptics from "expo-haptics";
+import { router, useFocusEffect } from "expo-router";
+import * as SQLite from "expo-sqlite";
 import React, {
   useCallback,
   useEffect,
   useRef,
   useState,
 } from "react";
-import { router, useFocusEffect } from "expo-router";
 import {
-  View,
+  Animated,
+  FlatList,
+  Image,
+  Pressable,
+  StyleSheet,
   Text,
   TextInput,
-  FlatList,
-  StyleSheet,
-  Pressable,
-  Animated,
   useWindowDimensions,
-  Image,
+  View,
 } from "react-native";
-import * as SQLite from "expo-sqlite";
-import * as Haptics from "expo-haptics";
-import { CameraView, useCameraPermissions } from "expo-camera";
 
 import productsData from "../../data/products.json";
 import { useCart } from "../../src/cart/CartContext";
@@ -54,7 +54,7 @@ const COLORS = {
 
 const VAT_RATE = 0.23;
 const PRODUCTS_URL =
-  "https://somahony10.github.io/staff-price-data/data/products.json";
+  "https://somahony10.github.io/staff-price-data/products.json";
 
 const formatPrice = (price: number) => Number(price).toFixed(2);
 const getPriceIncVat = (price: number) =>
