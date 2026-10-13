@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-13T10:55:47.328Z",
+  "version": "2026-10-13T15:18:40.318Z",
   "products": [
     {
       "stockCode": "0038548001067",
@@ -355,7 +355,7 @@
     {
       "stockCode": "11BL127",
       "description": "BLOCK 12\"  PER ONE12\"HIGHX17\"LONGx4\"THICK",
-      "price": 1.3,
+      "price": 1.34,
       "location": "",
       "supplier": "",
       "partNumber": "",
@@ -18112,7 +18112,7 @@
     {
       "stockCode": "21SS544",
       "description": "STAINLESS STEEL SCREWS 5X40 PER 200  30A",
-      "price": 17.01,
+      "price": 17.1,
       "location": "30A/",
       "supplier": "",
       "partNumber": "",
@@ -29496,9 +29496,9 @@
     },
     {
       "stockCode": "25GG141",
-      "description": "PISTOL GRIP-GREASE/GUN (AIR) G1418  7B4A",
+      "description": "AIR PISTOL GRIP-GREASE/GUN  43D",
       "price": 90.33,
-      "location": "7B4A",
+      "location": "43D",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -30558,7 +30558,7 @@
     },
     {
       "stockCode": "25WE101",
-      "description": "TIGERSEAL   310ml    BLACK 32B",
+      "description": "TIGERSEAL/ CARCOGLASS 6650 SUPER FAST    310ml    BLACK 32B",
       "price": 17.84,
       "location": "32B",
       "supplier": "",
@@ -37344,9 +37344,9 @@
     },
     {
       "stockCode": "28G135",
-      "description": "2 GANG 35MM DEEP-SOCKET GALV BOX LIGHT SWITCH  39A/WSA3H",
+      "description": "2 GANG 35MM DEEP-SOCKET GALV BOX LIGHT SWITCH  39A/WSA3B",
       "price": 1.32,
-      "location": "39A/WSA3H",
+      "location": "39A/WSA3B",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -37587,9 +37587,9 @@
     },
     {
       "stockCode": "28H411",
-      "description": "H4 12VOLT 60/55 WATT P43 WINGED  3B6/WSA2H",
+      "description": "H4 12VOLT 60/55 WATT P43 WINGED  3B6",
       "price": 5.79,
-      "location": "3B6/WSA2H",
+      "location": "3B6",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -38156,7 +38156,7 @@
       "stockCode": "28JN151",
       "description": "do not reorderJUNCTION BOX 65x65x30  SMALL SQ. 92104  IP55  40B/WSA",
       "price": 4.36,
-      "location": "40B/WSA",
+      "location": "40B/WSA2E",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -38712,9 +38712,9 @@
     },
     {
       "stockCode": "28PL201",
-      "description": "1 GANG DRY LINING BOX WA087P 39A/WSA3D",
+      "description": "1 GANG DRY LINING BOX WA087P 39A/WSA3A",
       "price": 1.52,
-      "location": "39A/WSA3D",
+      "location": "39A/WSA3A",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -43302,9 +43302,9 @@
     },
     {
       "stockCode": "30B121",
-      "description": "BSP STRAIGHT NUT CRIMP  6G8FBSPORX",
+      "description": "BSP STRAIGHT NUT CRIMP  6G8FBSPORX  46U",
       "price": 11.77,
-      "location": "",
+      "location": "46U",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -43347,18 +43347,18 @@
     },
     {
       "stockCode": "30B129",
-      "description": "BSP STRAIGHT NUT CRIMP  10G12FBSPORX",
-      "price": 16.22,
-      "location": "HYD",
+      "description": "BSP STRAIGHT NUT CRIMP  10G12FBSPORX   46U",
+      "price": 17.06,
+      "location": "46U",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
     },
     {
       "stockCode": "30B132",
-      "description": "BSP STRAIGHT NUT CRIMP  12G12FBSPORX",
-      "price": 16.22,
-      "location": "HYD",
+      "description": "BSP STRAIGHT NUT CRIMP  12G12FBSPORX   46U",
+      "price": 17.06,
+      "location": "46U",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -43374,9 +43374,9 @@
     },
     {
       "stockCode": "30B144",
-      "description": "BSP STRAIGHT THREAD CRIMP  4G4MBSPP",
+      "description": "BSP STRAIGHT THREAD CRIMP  4G4MBSPP   46U",
       "price": 8.78,
-      "location": "HYD",
+      "location": "46U",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -43455,9 +43455,9 @@
     },
     {
       "stockCode": "30B164",
-      "description": "BSP STRAIGHT THREAD CRIMP  12G12MBSPP",
-      "price": 17.48,
-      "location": "HYD",
+      "description": "BSP STRAIGHT THREAD CRIMP  12G12MBSPP   46U",
+      "price": 18.57,
+      "location": "46U",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -43563,9 +43563,9 @@
     },
     {
       "stockCode": "30B238",
-      "description": "BSP ELBOW CRIMP  16G16FBSPORX90",
-      "price": 40.95,
-      "location": "HYD",
+      "description": "BSP ELBOW CRIMP  16G16FBSPORX90   46U",
+      "price": 43.07,
+      "location": "46U",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -45399,9 +45399,9 @@
     },
     {
       "stockCode": "30BS112",
-      "description": "BSP BARREL ADAPTOR SOCKET 1/4\"  HYD",
-      "price": 2.9,
-      "location": "HYD",
+      "description": "BSP BARREL ADAPTOR SOCKET 1/4\"  HYD  46D",
+      "price": 3,
+      "location": "46D",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -45507,9 +45507,9 @@
     },
     {
       "stockCode": "30DF32",
-      "description": "5/8\" DIN FEMALE 10G20 FDHORX   HYD",
-      "price": 20.39,
-      "location": "HYD",
+      "description": "5/8\" DIN FEMALE 10G20 FDHORX",
+      "price": 20.7,
+      "location": "",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -47316,8 +47316,8 @@
     },
     {
       "stockCode": "30FW217",
-      "description": "3/4\"  SAE  FEMALE 4 WIRE HOSE 12GS12 FFORX    HYD",
-      "price": 29.61,
+      "description": "3/4\"  SAE  FEMALE 4 WIRE HOSE 12GS12 FFORX    46G",
+      "price": 32.05,
       "location": "46G",
       "supplier": "",
       "partNumber": "",
@@ -50187,8 +50187,8 @@
     },
     {
       "stockCode": "30M114",
-      "description": "METRIC NUT 14MM CRIMP  4G8FDLORX",
-      "price": 11.52,
+      "description": "METRIC NUT 14MM CRIMP  4G8FDLORX   46R",
+      "price": 12.11,
       "location": "46R",
       "supplier": "",
       "partNumber": "",
@@ -50205,9 +50205,9 @@
     },
     {
       "stockCode": "30M118",
-      "description": "METRIC NUT 18MM CRIMP  4G12FDLORX",
-      "price": 10.43,
-      "location": "51D",
+      "description": "METRIC NUT 18MM CRIMP  4G12FDLORX   46R",
+      "price": 10.96,
+      "location": "46R",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -52267,7 +52267,7 @@
     {
       "stockCode": "30MH224",
       "description": "3/8\" METRIC CRIMP (18MM) THREAD 6G12MDH - HEAVY HYD",
-      "price": 9.78,
+      "price": 10,
       "location": "46A",
       "supplier": "",
       "partNumber": "",
@@ -52563,7 +52563,7 @@
     },
     {
       "stockCode": "30Q123",
-      "description": "3/4\" QUICK RELEASE MALE 3EQRB4",
+      "description": "3/4\" QUICK RELEASE MALE 3EQRB4   46S",
       "price": 10.34,
       "location": "46S",
       "supplier": "",
@@ -53436,9 +53436,9 @@
     },
     {
       "stockCode": "30SH37",
-      "description": "HYD SHELL  1/2   2 WIRE HOSE (GATES)",
+      "description": "HYD SHELL  1/2   2 WIRE HOSE (GATES)   46A",
       "price": 2.36,
-      "location": "",
+      "location": "46A",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -59475,9 +59475,9 @@
     },
     {
       "stockCode": "34FBG16",
-      "description": "FEED BARRIER EXTENSION SLIDE BAR",
+      "description": "FEED BARRIER EXTENSION SLIDE BAR   60MM    F1",
       "price": 12.2,
-      "location": "",
+      "location": "F1",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -74011,7 +74011,7 @@
     {
       "stockCode": "44TT112",
       "description": "COW TAIL TAPE 50MTR    23A",
-      "price": 4.9,
+      "price": 5.61,
       "location": "23A",
       "supplier": "",
       "partNumber": "",
@@ -83154,9 +83154,9 @@
     },
     {
       "stockCode": "49D301",
-      "description": "9\" ORANGE STEEL CUT DISK  32A/US63B2",
+      "description": "9\" ORANGE STEEL CUT DISK  32A/",
       "price": 5.63,
-      "location": "32A/US63B2",
+      "location": "32A/",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -88382,6 +88382,15 @@
       "costPrice": 0
     },
     {
+      "stockCode": "5023969312200",
+      "description": "SCREWDRIVER BITS S2 (3) PH2 x 50MM",
+      "price": 2.42,
+      "location": "43",
+      "supplier": "",
+      "partNumber": "",
+      "costPrice": 0
+    },
+    {
       "stockCode": "5023969312279",
       "description": "SCREWDRIVER BITS  PAC 3 T40 X 25MM F/FULL  43",
       "price": 2.48,
@@ -90256,7 +90265,7 @@
     {
       "stockCode": "503610822427",
       "description": "HI-VIS TRAFFIC JACKET MEDIUM S460",
-      "price": 32.44,
+      "price": 36.08,
       "location": "",
       "supplier": "",
       "partNumber": "",
