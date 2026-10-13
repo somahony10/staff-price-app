@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-13T10:21:33.168Z",
+  "version": "2026-10-13T10:55:47.328Z",
   "products": [
     {
       "stockCode": "0038548001067",
@@ -264,7 +264,7 @@
     },
     {
       "stockCode": "11AG113",
-      "description": "AGGREGATE   SOLD PER TONNE FOR MIXING CONCRETE (1/2\")",
+      "description": "AGGREGATE   PER TONNE FOR MIXING CONCRETE (1/2\")",
       "price": 22.62,
       "location": "111",
       "supplier": "",
@@ -7123,7 +7123,7 @@
     {
       "stockCode": "19DH591",
       "description": "PILOTDRILL CENTRE DRILL 6X75MM FOR HSS 43",
-      "price": 4.44,
+      "price": 4.59,
       "location": "43",
       "supplier": "",
       "partNumber": "",
@@ -7222,7 +7222,7 @@
     {
       "stockCode": "19DM085",
       "description": "DRILL BIT MASONARY 8MM   X 150MM  43",
-      "price": 2.75,
+      "price": 3.03,
       "location": "43",
       "supplier": "",
       "partNumber": "",
@@ -7582,7 +7582,7 @@
     {
       "stockCode": "19DS061",
       "description": "DRILL BIT STEEL 6MM =1/4  43",
-      "price": 3.02,
+      "price": 3.14,
       "location": "43",
       "supplier": "",
       "partNumber": "",
@@ -7996,7 +7996,7 @@
     {
       "stockCode": "19DSDS089",
       "description": "SDS MASONRY PLUS BIT 8X260  43",
-      "price": 7.9,
+      "price": 8.36,
       "location": "43",
       "supplier": "",
       "partNumber": "",
@@ -14800,7 +14800,7 @@
     {
       "stockCode": "21CH305",
       "description": "CHIPBOARD SCREW 3 X 12 P/200  30A",
-      "price": 1.54,
+      "price": 1.58,
       "location": "30A",
       "supplier": "",
       "partNumber": "",
@@ -17536,7 +17536,7 @@
     {
       "stockCode": "21SB113",
       "description": "SCREWBOLT 6 X 100MM BOX 100  30D/BR3",
-      "price": 30.84,
+      "price": 31.92,
       "location": "30D/BR3",
       "supplier": "",
       "partNumber": "",
@@ -23619,9 +23619,9 @@
     },
     {
       "stockCode": "23B112",
-      "description": "BALLCOCK FLOAT VALVE 25MM TAIL 12\" ARM   44D",
-      "price": 30.22,
-      "location": "44D",
+      "description": "23B112",
+      "price": 0,
+      "location": "",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -36003,7 +36003,7 @@
     },
     {
       "stockCode": "28F221",
-      "description": "THIN FUSE 16 AMP  39C",
+      "description": "BOTTLE FUSE 16 AMP D22 39C",
       "price": 1.74,
       "location": "39C",
       "supplier": "",
@@ -39954,7 +39954,7 @@
     },
     {
       "stockCode": "28TP101",
-      "description": "TRAILING PLUG 16A YELLOW 110-130V IP44  39E",
+      "description": "PLUG 16A  110-130V IP44  YELLOW TRAILING 39E",
       "price": 3.45,
       "location": "39E",
       "supplier": "",
@@ -39999,7 +39999,7 @@
     },
     {
       "stockCode": "28TP131",
-      "description": "WATERPROOF 32AMP TRAILING PLUG 200-250V IP67  39E",
+      "description": "32AMP TRAILING PLUG 200-250V IP67   WATERPROOF  39E",
       "price": 13.38,
       "location": "39E",
       "supplier": "",
@@ -40647,8 +40647,8 @@
     },
     {
       "stockCode": "28YL610",
-      "description": "LED FLOODLIGHT ECOLINK 30W SLIM 4000K BLACK  36D",
-      "price": 49.49,
+      "description": "XCITE CCT FLOODLIGHT 30W SLIM 4000K  36D",
+      "price": 45,
       "location": "36D",
       "supplier": "",
       "partNumber": "",
@@ -41619,9 +41619,9 @@
     },
     {
       "stockCode": "29PS121",
-      "description": "COLD ZINC GALVN. SPRAY 500ML CORROSION PRO  33END3/US63C4",
+      "description": "COLD ZINC GALVN. SPRAY 500ML CORROSION PRO  33END3/",
       "price": 10.34,
-      "location": "33END/US63C4",
+      "location": "33END/",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -54094,7 +54094,7 @@
     {
       "stockCode": "31C402",
       "description": "PELLETS 6MM 10KG   #1#",
-      "price": 5.07,
+      "price": 5.29,
       "location": "",
       "supplier": "",
       "partNumber": "",
@@ -58945,7 +58945,7 @@
     {
       "stockCode": "34C113",
       "description": "CLAMP - POST CLAMP 76 X 60MM PAIR (3\" X 2.5\")  F2/F3",
-      "price": 6.98,
+      "price": 9.75,
       "location": "F2/F3",
       "supplier": "",
       "partNumber": "",
@@ -78601,8 +78601,17 @@
     {
       "stockCode": "47G171",
       "description": "NITRILE POWDER FREE BLA/BLU EXAM. P/100   34B/",
-      "price": 16.5,
+      "price": 12.2,
       "location": "34B/",
+      "supplier": "",
+      "partNumber": "",
+      "costPrice": 0
+    },
+    {
+      "stockCode": "47G172",
+      "description": "NITRILE  BLACK   XXL   P/50   34B/",
+      "price": 11.9,
+      "location": "",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -82039,7 +82048,7 @@
     {
       "stockCode": "48PE119",
       "description": "PERSPEX- CLEAR PLASTIC ACRYLIC 8X4 4MM #3#",
-      "price": 133,
+      "price": 152.6,
       "location": "#3#",
       "supplier": "",
       "partNumber": "",
@@ -91543,7 +91552,7 @@
     {
       "stockCode": "5056110867922",
       "description": "HOOK & LOOP TAPE  (VELCRO)  33A",
-      "price": 4.5,
+      "price": 4.67,
       "location": "33A",
       "supplier": "",
       "partNumber": "",
@@ -102189,9 +102198,9 @@
     },
     {
       "stockCode": "50JO111",
-      "description": "JOCKEY WHEEL RIBBED TJ15S 48mm (NO BRACKET)   STAND/44 FLOOR",
+      "description": "JOCKEY WHEEL RIBBED TJ15S 48mm (NO BRACKET) STAND/2B-STAND",
       "price": 55.9,
-      "location": "STAND/44 FLOOR",
+      "location": "STAND/2B-STAND",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -113061,7 +113070,7 @@
     },
     {
       "stockCode": "50TI131",
-      "description": "43\" STONEFORK TINE POINTED 20MM",
+      "description": "43\" STONEFORK TINE POINTED 24MM",
       "price": 40.95,
       "location": "",
       "supplier": "",
@@ -136408,7 +136417,7 @@
     {
       "stockCode": "75SP211",
       "description": "SANDING BELT P80 100 X 610  **PER ONE**  24A",
-      "price": 2.82,
+      "price": 2.92,
       "location": "24A",
       "supplier": "",
       "partNumber": "",
@@ -139738,7 +139747,7 @@
     {
       "stockCode": "79FB28",
       "description": "WHITE OGEE FASCIA BOARD 200MM-8\"  5M",
-      "price": 26.5,
+      "price": 28,
       "location": "",
       "supplier": "",
       "partNumber": "",
@@ -146046,7 +146055,7 @@
     },
     {
       "stockCode": "90AKFI116",
-      "description": "KINGSPAN FLOOR INSULATION P/SHEET 70MM 8X4FT  YELLOW#4#",
+      "description": "OOS     KINGSPAN FLOOR INSULATION P/SHEET 70MM 8X4FT  YELLOW#4#",
       "price": 45.5,
       "location": "#4#",
       "supplier": "",
@@ -146055,7 +146064,7 @@
     },
     {
       "stockCode": "90AKFI117",
-      "description": "KINGSPAN FLOOR INSULATION P/SHEET 80MM 8X4FT  YELLOW  B3713",
+      "description": "OOS    KINGSPAN FLOOR INSULATION P/SHEET 80MM 8X4FT  YELLOW  B3713",
       "price": 52.46,
       "location": "LOWER SHED",
       "supplier": "",
@@ -146416,7 +146425,7 @@
     {
       "stockCode": "90BANDING17",
       "description": "M18 GALVD BANDING 10MTRS  42A//",
-      "price": 7.55,
+      "price": 7.97,
       "location": "42A/",
       "supplier": "",
       "partNumber": "",
