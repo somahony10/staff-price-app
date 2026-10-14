@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-13T15:18:40.318Z",
+  "version": "2026-10-14T12:12:19.456Z",
   "products": [
     {
       "stockCode": "0038548001067",
@@ -16446,9 +16446,9 @@
     },
     {
       "stockCode": "21DRY331",
-      "description": "DRYWALL SCREW 3.5 X 32  BOX  200  28A",
+      "description": "DRYWALL SCREW 3.5 X 32  BOX  200  28D",
       "price": 3.24,
-      "location": "28A",
+      "location": "28D",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -16502,7 +16502,7 @@
       "stockCode": "21DRY343",
       "description": "DRYWALL SCREW 3.5 X 42  BOX 1000",
       "price": 13.6,
-      "location": "",
+      "location": "29C",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -17267,7 +17267,7 @@
       "stockCode": "21Q847",
       "description": "QUICK ANCHOR 8 X 90 BOX 50",
       "price": 8.25,
-      "location": "",
+      "location": "29C",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -33537,9 +33537,9 @@
     },
     {
       "stockCode": "28BA112",
-      "description": "B22 TO E27 ADAPTOR    40C/WSA3I",
+      "description": "B22 TO E27 ADAPTOR    40C/WSA3E",
       "price": 3.4,
-      "location": "40C/WSA3I",
+      "location": "40C/WSA3E",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -37299,9 +37299,9 @@
     },
     {
       "stockCode": "28G101",
-      "description": "1 GANG 25MM GALV DEEP SOCKET LIGHT SWITCH FOR WALL 39A/WSA4J",
+      "description": "1 GANG 25MM GALV DEEP SOCKET LIGHT SWITCH FOR WALL 39A/WSA2C",
       "price": 1.3,
-      "location": "39A/WSA4J",
+      "location": "39A/WSA2C",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -37317,9 +37317,9 @@
     },
     {
       "stockCode": "28G111",
-      "description": "2 GANG 25MM DEEP SOCKET GALV BOX LIGHT SWITCH  39A/WSA4J",
+      "description": "2 GANG 25MM DEEP SOCKET GALV BOX LIGHT SWITCH  39A/WSA 2C",
       "price": 1.44,
-      "location": "39A/WSA4J",
+      "location": "39A/WSA 2C",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -37346,7 +37346,7 @@
       "stockCode": "28G135",
       "description": "2 GANG 35MM DEEP-SOCKET GALV BOX LIGHT SWITCH  39A/WSA3B",
       "price": 1.32,
-      "location": "39A/WSA3B",
+      "location": "39A/WSA 3B",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -38101,7 +38101,7 @@
     {
       "stockCode": "28J111",
       "description": "M12 (CELL PACK)JOINER FOR UNDERGROUND ELEC. CABLES",
-      "price": 22,
+      "price": 20.97,
       "location": "",
       "supplier": "",
       "partNumber": "",
@@ -38154,9 +38154,9 @@
     },
     {
       "stockCode": "28JN151",
-      "description": "do not reorderJUNCTION BOX 65x65x30  SMALL SQ. 92104  IP55  40B/WSA",
+      "description": "do not reorderJUNCTION BOX 65x65x30  SMALL SQ. 92104  IP55  40B/WSA 2E",
       "price": 4.36,
-      "location": "40B/WSA2E",
+      "location": "40B/WSA  2E",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -38235,9 +38235,9 @@
     },
     {
       "stockCode": "28LH101",
-      "description": "T2 BC BATTEN LAMPHOLDER   39A/WSA3I",
+      "description": "T2 BC BATTEN LAMPHOLDER   39A/WSA3E",
       "price": 3.12,
-      "location": "39A/WSA3I",
+      "location": "39A/WSA3E",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -38372,7 +38372,7 @@
       "stockCode": "28P105",
       "description": "BLACK RUBBER  13AMP-3 PIN PLUG SQ   39A/",
       "price": 3.54,
-      "location": "39A/",
+      "location": "39A/3D",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -38714,7 +38714,7 @@
       "stockCode": "28PL201",
       "description": "1 GANG DRY LINING BOX WA087P 39A/WSA3A",
       "price": 1.52,
-      "location": "39A/WSA3A",
+      "location": "39A/ WSA   3A",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -38946,9 +38946,9 @@
     },
     {
       "stockCode": "28S211",
-      "description": "13AMP SQ SOCK 2 GANG NO SWITCH   39A/WSA3E",
+      "description": "13AMP SQ SOCK 2 GANG NO SWITCH   39A/WSA 3D",
       "price": 3.5,
-      "location": "39A/WSA3E",
+      "location": "39A/WSA 3D",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -39398,7 +39398,7 @@
       "stockCode": "28SW115",
       "description": "LIGHT SWITCH 1 GANG-2 WAY SW1.2    39A/WSA4H",
       "price": 2.34,
-      "location": "39A/WSA4H/ d3",
+      "location": "39A/WSA4H/ 3C",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -39432,9 +39432,9 @@
     },
     {
       "stockCode": "28SW123",
-      "description": "LIGHT SWITCH METAL CLAD 10AX 1 GANG 2 WAY   39A",
+      "description": "LIGHT SWITCH METAL CLAD 10AX 1 GANG 2 WAY   39A/2C",
       "price": 6.72,
-      "location": "39A",
+      "location": "39A/2C",
       "supplier": "",
       "partNumber": "",
       "costPrice": 0
@@ -39595,7 +39595,7 @@
     {
       "stockCode": "28SWC111",
       "description": "2G FULL COOKER SWITCH-45A & LIGHT    39A",
-      "price": 9.11,
+      "price": 9.93,
       "location": "39A",
       "supplier": "",
       "partNumber": "",
@@ -40648,7 +40648,7 @@
     {
       "stockCode": "28YL610",
       "description": "XCITE CCT FLOODLIGHT 30W SLIM 4000K  36D",
-      "price": 45,
+      "price": 26.38,
       "location": "36D",
       "supplier": "",
       "partNumber": "",
@@ -83488,7 +83488,7 @@
     {
       "stockCode": "49F181",
       "description": "PLASTIC SCREEN FOR FACEGUARD  35A",
-      "price": 5.55,
+      "price": 7.43,
       "location": "35A",
       "supplier": "",
       "partNumber": "",
@@ -110569,7 +110569,7 @@
     {
       "stockCode": "50SL601",
       "description": "FLANGE HOSE END 4-BOLT 6\"   US71 A1",
-      "price": 27.6,
+      "price": 32.8,
       "location": "US71 A1",
       "supplier": "",
       "partNumber": "",
@@ -110704,7 +110704,7 @@
     {
       "stockCode": "50SL625A",
       "description": "SLURRY PUMP VANE BATTIONI (7) 18\" LONG 8000L   US72  B1",
-      "price": 8.6,
+      "price": 10.22,
       "location": "US72  B1",
       "supplier": "",
       "partNumber": "",
@@ -111640,7 +111640,7 @@
     {
       "stockCode": "50SPLINE20.10",
       "description": "20.10 1&3/8\" 6 SPLINE",
-      "price": 14.82,
+      "price": 16.35,
       "location": "1",
       "supplier": "",
       "partNumber": "",
@@ -112027,7 +112027,7 @@
     {
       "stockCode": "50SW201",
       "description": "PUSH BUTTON SWITCH   20A  3B8",
-      "price": 5.9,
+      "price": 6.08,
       "location": "3B8",
       "supplier": "",
       "partNumber": "",
@@ -112504,7 +112504,7 @@
     {
       "stockCode": "50T122",
       "description": "TRAILER MUDGUARD 8\"/10\"  PLASTIC    US69 A1",
-      "price": 10.2,
+      "price": 10.51,
       "location": "US69 A1",
       "supplier": "",
       "partNumber": "",
@@ -112513,7 +112513,7 @@
     {
       "stockCode": "50T123",
       "description": "TRAILER MUDGUARD 10/13\" (620x180x240m) PLASTIC    US69 A5",
-      "price": 18.59,
+      "price": 19.14,
       "location": "US69 A5",
       "supplier": "",
       "partNumber": "",
@@ -112522,7 +112522,7 @@
     {
       "stockCode": "50T124",
       "description": "TRAILER MUDGUARD FOR 13/14\" PLASTIC    US69 A5",
-      "price": 22.88,
+      "price": 23.56,
       "location": "US69 A5",
       "supplier": "",
       "partNumber": "",
@@ -112621,7 +112621,7 @@
     {
       "stockCode": "50T888",
       "description": "TROLLEY SACK TRUCK WITH PUMPED WHEELS  US57",
-      "price": 80.93,
+      "price": 83.35,
       "location": "US57(NEW ROOM)",
       "supplier": "",
       "partNumber": "",
@@ -112648,7 +112648,7 @@
     {
       "stockCode": "50TB121",
       "description": "TURNBUCKLE 3/8\" X 8\"  47A",
-      "price": 4.05,
+      "price": 4.17,
       "location": "47A",
       "supplier": "",
       "partNumber": "",
@@ -126850,7 +126850,7 @@
     {
       "stockCode": "70ESB101",
       "description": "ESB HOCKEY STICK 50MM COMPLETE  US60A1",
-      "price": 20.25,
+      "price": 21.83,
       "location": "US60A1",
       "supplier": "",
       "partNumber": "",
@@ -142410,7 +142410,7 @@
     },
     {
       "stockCode": "80P332",
-      "description": "PLAIN 3 X 2X16FT  PER LENGTH  (75X44X4.8) #9#",
+      "description": "OOS  PLAIN 3 X 2X16FT  PER LENGTH  (75X44X4.8) #9#",
       "price": 13.9,
       "location": "#9#",
       "supplier": "",
@@ -147036,7 +147036,7 @@
     },
     {
       "stockCode": "90E113",
-      "description": "OOS  FOR 2 WEEKS EXPANSION JOINT FOR FOOTPATH 3M",
+      "description": "EXPANSION JOINT FOR FOOTPATH 3M",
       "price": 8.28,
       "location": "",
       "supplier": "",
@@ -151861,7 +151861,7 @@
     {
       "stockCode": "91L693",
       "description": "DOOR HANDLE NARROW PLATE-WHITE - OSLO 72MM  33C/63B2",
-      "price": 26.63,
+      "price": 30.98,
       "location": "33C",
       "supplier": "",
       "partNumber": "",
